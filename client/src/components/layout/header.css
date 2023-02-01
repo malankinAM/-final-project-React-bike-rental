@@ -1,0 +1,70 @@
+.header {
+  background: #0B132B;
+}
+.header .wrapper {
+  padding: 20px 0;
+  justify-content: space-between;
+}
+.header__logo {
+  color: #5BC0BE;
+}
+.header__link {
+  margin-right: 20px;
+  font-size: 24px;
+}
+.header__link:last-child {
+  margin-right: 0;
+}
+.header__link._active {
+  color: #5BC0BE;
+}
+.header__user-avatar {
+  background: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.header__user-action {
+  color: #5BC0BE;
+  background: #1C2541;
+  padding: 20px;
+  border-radius: 20px;
+}
+.header__user-button {
+  color: #0B132B;
+}
+.header__user-profile {
+  position: relative;
+}
+.header__user-profile-main {
+  display: flex;
+  align-items: center;
+}
+.header__user-profile-additional {
+  color: #7D7A82;
+  position: absolute;
+  top: 140%;
+  left: -55px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 150px;
+  padding: 20px;
+  background: #5BC0BE;
+  border-radius: 8px;
+}
+.header__user-profile-additional:before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: calc(50% - 10px);
+  background: #5BC0BE;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+}
+.header__user-profile-link {
+  color: #0B132B;
+  margin-bottom: 16px;
+}
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,77 @@
+.officers
+  & .wrapper
+    flex-direction: column
+  &__table
+    margin-top: 60px
+    width: 100%
+    padding: 30px
+    border: 1px solid white
+    border-radius: 20px
+    &-item
+      margin-bottom: 30px
+      display: flex
+      justify-content: space-between
+      align-items: center
+      padding: 20px
+      border: 1px solid white
+      border-radius: 20px
+      &:last-child
+        margin-bottom: 0
+      &-cell
+        display: flex
+        justify-content: center
+        text-align: center
+        flex: 1 1
+        &.actions
+          display: flex
+          flex-direction: column
+          align-items: center
+  &__create
+    display: flex
+    flex-direction: column
+    margin-top: 30px
+    max-width: 50%
+    padding: 30px
+    background: #0B132B
+    border-radius: 20px
+    &-title
+      margin-bottom: 30px
+    &-label
+      margin-bottom: 8px
+    &-input
+      border-radius: 10px
+      padding: 10px
+      margin-bottom: 30px
+      &:last-child
+        margin-bottom: 0
+//Detail
+.officers
+  &__details
+    & .wrapper
+      flex-direction: column
+
+    &-data
+      margin: 20px auto 60px
+      width: 80%
+      display: flex
+      flex-direction: column
+      align-items: center
+      &-item
+        width: 50%
+        margin-top: 40px
+        text-align: center
+        &-title
+          margin-bottom: 8px
+        &-text
+          font-size: 20px
+    &-button
+      padding: 20px 30px
+      background: #1C2541
+      border-radius: 20px
+      font-size: 24px
+      color: white
+    &-input
+      border-radius: 20px
+      border: none
+      padding: 10px
+      width: 40%

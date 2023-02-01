@@ -1,0 +1,9 @@
+{
+  "name": "eacycle",
+  "version": "1.0.0",
+  "description": "Alaska",
+  "scripts": {},
+  "author": "Alaska",
+  "license": "ISC",
+  "main": "index.js"
+}

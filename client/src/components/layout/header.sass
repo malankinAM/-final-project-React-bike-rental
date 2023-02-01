@@ -1,0 +1,57 @@
+.header
+  background: #0B132B
+  & .wrapper
+    padding: 20px 0
+    justify-content: space-between
+  &__logo
+    color: #5BC0BE
+  &__link
+    margin-right: 20px
+    font-size: 24px
+    &:last-child
+      margin-right: 0
+    &._active
+      color: #5BC0BE
+  &__user
+    &-avatar
+      background: white
+      border-radius: 50%
+      cursor: pointer
+    &-action
+      color: #5BC0BE
+      background: #1C2541
+      padding: 20px
+      border-radius: 20px
+    &-button
+      color: #0B132B
+    &-profile
+      position: relative
+      &-main
+        display: flex
+        align-items: center
+      &-additional
+        color: #7D7A82
+        position: absolute
+        top: 140%
+        left: -55px
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+        min-width: 150px
+        padding: 20px
+        background: #5BC0BE
+        border-radius: 8px
+        &:before
+          content: ""
+          position: absolute
+          top: -10px
+          left: calc(50% - 10px)
+          background: #5BC0BE
+          width: 20px
+          height: 20px
+          transform: rotate(45deg)
+      &-link
+        color: #0B132B
+        margin-bottom: 16px
+
+
